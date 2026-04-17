@@ -24,6 +24,7 @@ A custom controller is implemented using the Ryu framework to detect and restric
 ---
 ## 📂 Project Structure
 
+```
 sdn-broadcast-traffic-control/
 ├── broadcast_control.py
 ├── README.md
@@ -34,7 +35,7 @@ sdn-broadcast-traffic-control/
 ├── controller_log.jpeg
 ├── flowtable.jpeg
 ├── iperf.jpeg
----
+```
 
 ## System Architecture
 The system consists of the following components:
