@@ -79,12 +79,28 @@ pingall
 
 ---
 
-## Output Screenshots
-## Output Screenshots
+## 📸 Output Screenshots
 
-### Controller Start
-![Controller Output](controller_start.jpeg)
+### 1. Controller Start
+![Controller Start](controller_start.jpeg)
 
+### 2. Switch Connected
+![Switch Connected](switch_connected.jpeg)
+
+### 3. Controller Logs
+![Controller Logs](controller_log.jpeg)
+
+### 4. Flow Table
+![Flow Table](flowtable.jpeg)
+
+### 5. Allowed Ping
+![Allowed Ping](allowed_ping.jpeg)
+
+### 6. Blocked Ping
+![Blocked Ping](blocked_ping.jpeg)
+
+### 7. Iperf Test
+![Iperf Output](iperf.jpeg)
 
 
 
