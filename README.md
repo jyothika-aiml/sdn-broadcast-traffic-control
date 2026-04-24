@@ -1,9 +1,9 @@
-# SDN-Based Broadcast Traffic Control using Ryu
+# SDN-Based Broadcast Traffic Filtering using Ryu
 
 ---
 
 ## Overview
-This project demonstrates the use of Software Defined Networking (SDN) to control broadcast traffic in a network. A custom controller is implemented using the Ryu framework to detect and limit unnecessary broadcast packets, thereby improving network efficiency and reducing congestion.
+This project demonstrates the use of Software Defined Networking (SDN) to filter broadcast traffic in a network. A custom controller is implemented using the Ryu framework to detect and restrict unnecessary broadcast packets, thereby improving network efficiency and reducing congestion.
 
 ---
 
@@ -21,6 +21,10 @@ This project demonstrates the use of Software Defined Networking (SDN) to contro
 - Python  
 - Ryu Controller  
 - OpenFlow Protocol  
+
+---
+
+## Project Structure
 
 ---
 
@@ -62,6 +66,9 @@ sdn-broadcast-traffic-control/
 ![Iperf Output](iperf.jpeg)
 
 ----
+
+
+---
 
 
 ---
@@ -124,11 +131,11 @@ The Ryu controller performs the following:
 - Communication between hosts using unicast traffic  
 
 ### Restricted
-- Broadcast traffic is limited to prevent unnecessary flooding  
+- Broadcast traffic is filtered to prevent unnecessary flooding  
 
 ### Broadcast Handling
 - Broadcast packets are detected at the controller  
-- Unnecessary broadcast traffic is filtered to improve efficiency  
+- Unnecessary broadcast traffic is dropped to improve efficiency  
 
 ---
 
@@ -160,7 +167,7 @@ The Ryu controller performs the following:
 
 ## Conclusion
 
-This project demonstrates a practical approach to controlling broadcast traffic in Software Defined Networking using a Ryu controller. Broadcast packets are detected and filtered at the controller level to prevent unnecessary flooding. The system ensures efficient network operation while maintaining normal communication between hosts, highlighting the effectiveness of SDN in dynamic traffic management.
+This project demonstrates a practical approach to broadcast traffic filtering in Software Defined Networking using a Ryu controller. Broadcast packets are detected and restricted at the controller level to prevent unnecessary flooding. The system ensures efficient network operation while maintaining normal communication between hosts, highlighting the effectiveness of SDN in dynamic traffic management.
 
 ---
 
